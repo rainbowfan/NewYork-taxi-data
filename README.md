@@ -11,8 +11,8 @@ Data used in the analysis is publicly available and can be downloaded from this 
 3. Use multiple regression and add the surchage as a regressor, estimating the resulting coefficients.
 
 ##About the analysis
-Two distinct ways parallel computation and random sampling with Bag of Little Bootstraps are implemented to solve the first two tasks mentioned above. Corresponding R code can be found in Approach1.R and Approach2.R respectively.
-Before extracting the data,"fare"          
+Two distinct ways parallel computation and random sampling with Bag of Little Bootstraps are implemented to solve the first two tasks mentioned above. Corresponding R code can be found in Approach1.R, Approach2.R and BLB.R respectively.
+Before extracting the data, "fare" and "data" files are checked to make sure they match line by line. Corresponding code can be found in Check.sh. All the detailed analysis can be found in Report.pdf.
 
 
 
